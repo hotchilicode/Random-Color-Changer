@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+#btn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(56, 220, 50);
+    margin-top: 200px;
+    cursor: pointer;
+    font-size: 15px;
+}
+#btn:hover{
+    background-color: green;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    font-weight: bold;
+}
